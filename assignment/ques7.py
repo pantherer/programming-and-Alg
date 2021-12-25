@@ -1,0 +1,5 @@
+a = (1,3,2,4,5,6)
+b = list(a)
+b.append(8)
+a = tuple(b)
+print(a)
